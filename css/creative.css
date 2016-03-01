@@ -1,0 +1,196 @@
+body {
+  text-align: center;
+}
+header {
+  background-image: url('../img/header.jpg');
+  position: relative;
+  width: 100%; /* Asi el header abarca el 100% en cualquier tamano de pantalla*/
+  background-size: cover;
+  background-position: center;  
+  text-align: center;
+  color: white;
+}
+.navbar {
+  background-color: transparent;
+}
+a {
+	color: white;
+	opacity: 0.7;
+}
+.saludo {
+  position: relative;
+  text-align: center;
+  padding: 100px 15px 100px;
+  width: 100%;
+}
+header .hrorg {
+  border-color: #f15f41;
+  border-width: 3px;
+  max-width: 50px;
+}
+.hrwht {
+  border-color: white;
+  border-width: 3px;
+  max-width: 50px;
+}
+.bg-org {
+  background-color: #f15f41;
+  color: white;
+}
+.btn {
+  border: none;
+  border-radius: 200px;
+  font-weight: 500;
+  padding: 15px 30px;
+}
+p  {
+	opacity: 0.7;
+}
+.menu-bar {
+  display: none;
+}
+/*Aqui empezamos a contraer el nav para hacer un menu responsive*/
+@media screen and (max-width:600px) {
+  header nav {
+    width: 80%;
+    height: 100%;
+    position: fixed;
+    margin: 0;
+  }
+  header nav ul li {
+    display: block;
+    float: none;
+  }
+  .menu-bar {
+    display: block;
+    width: 100%;
+  }
+  .menu-bar .bt-menu {
+    display: block;
+    padding: 30px;
+  }
+  .menu-bar span {
+    float: right;
+    font-size: 30px;
+  }
+  a {
+    opacity: 1;
+  }
+}
+/*PARTE DE CECU*/
+hr {
+  color: #F15F41;
+  border: 1px solid #F15F41;
+  width: 25px;
+}
+h2 {
+  font-size: 25px;
+}
+.text-gray {
+  color: #CCCACC;
+}
+.text-white {
+  color: white;
+}
+.text-color {
+  color: #F15F41;
+}
+/*---------- SECCIO SERVICIOS ----------*/
+#servicios {
+  padding: 5%;
+}
+.github {
+  padding: 5%;
+}
+#servicios span {
+  color: #F15F41;
+  font-size: 45px;
+}
+.serv {
+  margin-right: 6%;
+  margin-left: 6%;
+}
+/*---------- SECCION TRABAJOS ---------*/
+#trabajos {
+  background: #232123;
+}
+.white {
+  background: white;
+  border-radius: 20px;
+  border: white;
+  color: black;
+}
+.white:hover {
+  background: #F15F41;
+}
+.uno {
+  background-image: url("../img/portfolio/1.jpg");
+  background-size: cover;
+    height: 240px;
+}
+.dos {
+  background-image: url("../img/portfolio/2.jpg");
+  background-size: cover;
+    height: 240px;
+}
+.tres {
+  background-image: url("../img/portfolio/3.jpg");
+  background-size: cover;
+    height: 240px;
+}
+.cuatro {
+  background-image: url("../img/portfolio/4.jpg");
+  background-size: cover;
+    height: 240px;
+}
+.cinco {
+  background-image: url("../img/portfolio/5.jpg");
+  background-size: cover;
+    height: 240px;
+}
+.seis {
+  background-image: url("../img/portfolio/6.jpg");
+  background-size: cover;
+    height: 240px;
+}
+.github {
+  padding: 3%;
+}
+.txt {
+  font-size: 20px;
+}
+/*---------- INFO IMG ----------*/
+.caja {
+    position: absolute;
+    padding: 80px;
+    margin: 0px -15px;
+    transition: background 1s;
+    width: 100%;
+    height: 240px;
+    -moz-transition: background 1s;
+    -webkit-transition: background 1s;
+    -o-transition: background 1s;
+    color: transparent;
+}
+.caja:hover {
+  z-index: 1;
+  background: #F15F41;
+  opacity: 0.8;
+  color: white;
+}
+/*---------- SECCION CONTACTAME ----------*/
+#contactame {
+  padding: 3%;
+}
+#contactame p {
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 2%;
+}
+.contc {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+#contactame span {
+  font-size: 40px;
+}
